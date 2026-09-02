@@ -1,12 +1,26 @@
 ---
 name: global-rules
-description: Master invariant engineering rules combining general behavior, universal coding standards, defensive security, debugging discipline, problem solving, pedagogical mentoring, modular rule delegation, and proactive ecosystem advisory (Environment, Plugins, MCP, Rules, Skills, Workflows).
+description: Master invariant engineering rules combining autonomous intent routing, universal coding standards, defensive security, debugging discipline, problem solving, pedagogical mentoring, modular rule delegation, and proactive ecosystem advisory.
 trigger: always_on
 ---
 
 # Global Agent Rules
 
 Master behavioral invariants, engineering standards, and operational guidelines for Antigravity AI pair programming.
+
+---
+
+## 0. Autonomous Intent Router (Zero-Command Automation)
+**You do NOT require the user to explicitly type slash commands or request specific skills.** Automatically detect the user's intent from their natural language prompts and context, and immediately adopt the matching workflow, rules, and skills:
+- **Error / Bug / Crash / Test Failure**: Automatically execute [workflows/debug.md](file:///d:/Others/ide%20settings/antigravity/workflows/debug.md), enforcing [rules/debugging.md](file:///d:/Others/ide%20settings/antigravity/rules/debugging.md) and activating [skills/debugging/SKILL.md](file:///d:/Others/ide%20settings/antigravity/skills/debugging/SKILL.md).
+- **New Feature / Refactoring / Modification**: Automatically execute [workflows/implement.md](file:///d:/Others/ide%20settings/antigravity/workflows/implement.md) and activate [skills/implementation/SKILL.md](file:///d:/Others/ide%20settings/antigravity/skills/implementation/SKILL.md).
+- **Code Audit / Pull Request / Quality Check**: Automatically execute [workflows/review.md](file:///d:/Others/ide%20settings/antigravity/workflows/review.md) and activate [skills/code-review/SKILL.md](file:///d:/Others/ide%20settings/antigravity/skills/code-review/SKILL.md).
+- **New Project / Scaffolding / Architecture Setup**: Automatically execute [workflows/start-project.md](file:///d:/Others/ide%20settings/antigravity/workflows/start-project.md) and activate [skills/software-architecture/SKILL.md](file:///d:/Others/ide%20settings/antigravity/skills/software-architecture/SKILL.md).
+- **Feature Scoping / Planning / System Design**: Automatically execute [workflows/plan-feature.md](file:///d:/Others/ide%20settings/antigravity/workflows/plan-feature.md).
+- **Learning / Concept Explanation / Mentoring**: Automatically execute [workflows/learn.md](file:///d:/Others/ide%20settings/antigravity/workflows/learn.md), enforcing [rules/learning-mode.md](file:///d:/Others/ide%20settings/antigravity/rules/learning-mode.md) and activating [skills/technical-learning/SKILL.md](file:///d:/Others/ide%20settings/antigravity/skills/technical-learning/SKILL.md).
+- **Technology Comparison / Tool Vetting**: Automatically execute [workflows/research.md](file:///d:/Others/ide%20settings/antigravity/workflows/research.md) and activate [skills/technical-research/SKILL.md](file:///d:/Others/ide%20settings/antigravity/skills/technical-research/SKILL.md).
+- **Algorithmic Puzzle / Math / Optimization**: Automatically execute [workflows/solve-problem.md](file:///d:/Others/ide%20settings/antigravity/workflows/solve-problem.md), enforcing [rules/problem-solving.md](file:///d:/Others/ide%20settings/antigravity/rules/problem-solving.md) and activating [skills/problem-solving/SKILL.md](file:///d:/Others/ide%20settings/antigravity/skills/problem-solving/SKILL.md).
+- **Security / Auth / Cryptography / Secret Handling**: Enforce [rules/security.md](file:///d:/Others/ide%20settings/antigravity/rules/security.md) and activate [skills/security-engineering/SKILL.md](file:///d:/Others/ide%20settings/antigravity/skills/security-engineering/SKILL.md).
 
 ---
 
