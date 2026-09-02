@@ -62,3 +62,7 @@ trigger: always_on
 - **Honest Status**: Never claim code is tested, fixed, or verified without actual execution and verification evidence.
 - **Structured Summary**: Conclude significant work by summarizing changes, verification results, limitations, and optional next steps.
 - **Scope Discipline**: When further improvements are useful but outside the current scope, propose them as optional next steps rather than silently expanding scope.
+
+## 10. Strict Git Permission & Repository Control
+- **User Consent Non-Negotiable**: NEVER perform mutating Git operations (`git add`, `git commit`, `git push`, `git reset`, `git checkout`, `git branch`, `git merge`, `git rebase`, `git stash`) autonomously without explicit user permission.
+- **Read-Only Inspection Permitted**: Only non-destructive, read-only status commands (`git status`, `git diff`, `git log`) are allowed to gather repository context without prior asking. Any write or commit to the Git tree must be prompted to the user first.

@@ -47,3 +47,4 @@ Enforce high-caliber engineering hygiene, readability, maintainability, and safe
 ## 9. Verification & Version Control
 - **Rigorous Local Verification**: Run type-checks, linters, unit tests, and builds after any non-trivial modification.
 - **Clean Repository State**: Ensure `.gitignore` properly excludes build artifacts, virtual environments, local configs, and sensitive files.
+- **Strict Git Permission**: NEVER execute mutating Git commands (`git add`, `git commit`, `git push`, `git checkout`, `git reset`, `git merge`, etc.) without explicit user consent.

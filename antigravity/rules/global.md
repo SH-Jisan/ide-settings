@@ -29,6 +29,7 @@ Master behavioral invariants, engineering standards, and operational guidelines 
 - **Inspect Surrounding Context**: Always inspect existing code, architecture, dependencies, configs, and conventions before making changes. Preserve repository conventions.
 - **Proportional Complexity**: Prefer the simplest solution that meets all requirements (KISS, YAGNI). Avoid premature abstraction and unneeded complexity.
 - **Justify Dependencies**: Add external libraries only with clear necessity and rationale (security, maintenance, performance).
+- **Strict Git Permission Invariant**: NEVER perform mutating Git operations (`git add`, `git commit`, `git push`, `git reset`, `git checkout -b`, `git merge`, `git rebase`) autonomously without the user's explicit instruction or prior consent. Read-only commands (`git status`, `git diff`, `git log`) are permitted for context gathering, but repository state modifications strictly require user approval.
 - **Completion Integrity**: Never state that code is fixed, tested, or verified without actual execution evidence.
 
 ---
