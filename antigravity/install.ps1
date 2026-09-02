@@ -57,7 +57,7 @@ if (-not (Test-Path $DestRoot)) {
     New-Item -ItemType Directory -Path $DestRoot -Force | Out-Null
 }
 
-$FoldersToSync = @("rules", "skills", "workflows")
+$FoldersToSync = @("rules", "skills", "workflows", "plugins")
 
 foreach ($Folder in $FoldersToSync) {
     $SrcFolder = Join-Path -Path $ScriptDir -ChildPath $Folder
